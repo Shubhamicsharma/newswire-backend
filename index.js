@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 
 mongoose
-	.connect('mongodb+srv://admin:admin@cluster0.25nlq3g.mongodb.net/?retryWrites=true&w=majority')
+	.connect('mongodb+srv://shubhamicsharma:Shubham-1234@cluster0.f9rmcrx.mongodb.net/?retryWrites=true&w=majority')
 	.then(() => console.log('DB Connected!'))
 	.catch((error) => console.log(error));
 
