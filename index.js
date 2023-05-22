@@ -9,9 +9,7 @@ mongoose
 	.catch((error) => console.log(error));
 
 app.use(express.json());
-app.use(cors({
-	origin: ["http://localhost:3000", "https://newswiresite.onrender.com"]
-}));
+app.use(cors());
 const newsRoutes = require('./routes/news');
 app.use(newsRoutes);
 
